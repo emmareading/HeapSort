@@ -13,6 +13,7 @@
 
    M. Simpson & B. Bird - 11/16/2015
 */
+// Emma Reading - University of Victoria
 
 import java.util.Scanner;
 import java.util.Vector;
@@ -31,8 +32,6 @@ public class HeapSort{
 	
 
 	public static void HeapSort(int[] A){
-
-		/* ... Your Code Here ... */
 
 		for (int i = A.length; i > 0; i--) {
 			buildHeap(A, i, A.length);
